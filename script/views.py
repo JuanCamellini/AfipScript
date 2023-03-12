@@ -8,6 +8,10 @@ def home(request):
 def pacientes(request):
     if request.method == "POST":
         pass
+    return render(request, "script/paciente.html")
+    
     #video para hacer script
     #https://www.youtube.com/watch?v=FaVEISsLld0&t=1766s
     
+def afipGenerar(request):
+    return render(request, "script/afipGenerar.html")
